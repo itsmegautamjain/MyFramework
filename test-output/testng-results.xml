@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26813" started-at="2020-09-06T19:48:33 IST" finished-at="2020-09-06T19:49:00 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.PositiveTest@290dbf45]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="26813" started-at="2020-09-06T19:48:33 IST" finished-at="2020-09-06T19:49:00 IST">
+      <class name="runners.PositiveTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.PositiveTest@290dbf45]" name="setUpClass" is-config="true" duration-ms="467" started-at="2020-09-06T19:48:33 IST" finished-at="2020-09-06T19:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runners.PositiveTest@290dbf45]" name="setup" is-config="true" duration-ms="288" started-at="2020-09-06T19:48:34 IST" finished-at="2020-09-06T19:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.PositiveTest@290dbf45]" name="feature" duration-ms="25636" started-at="2020-09-06T19:48:34 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-06T19:49:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FTR_01 - To be Tested in Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.PositiveTest@290dbf45]" name="tearDownClass" is-config="true" duration-ms="188" started-at="2020-09-06T19:49:00 IST" finished-at="2020-09-06T19:49:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.PositiveTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
