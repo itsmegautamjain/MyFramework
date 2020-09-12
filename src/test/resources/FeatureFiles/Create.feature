@@ -14,4 +14,3 @@ And Enter "crmsfa" as Password
 And Click on login button
 And click on crm-sfa link
 And click on createLead link
-And click on createLead link
